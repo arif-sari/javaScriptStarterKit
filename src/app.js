@@ -14,6 +14,7 @@ let konutKredileri = [
   "Kamu Konut Kredisi",
   "Özel Konum Kredisi",
   "A kredisi",
+  "B kredisi",
 ];
 
 console.log("<ul>");
