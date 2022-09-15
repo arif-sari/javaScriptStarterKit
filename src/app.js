@@ -1,23 +1,15 @@
 console.log("Merhaba Kodlama.io");
 
-let dolarDun = 9.256;
+let dolarDun = 9.3;
 
-let dolarBugun = 9.3;
+let dolarBugun = 9.45;
 
-console.log(dolarDun);
-let euroDun = 12;
-console.log(euroDun);
+console.log(dolarBugun);
 
-let konutKredileri = [
-  "Konut Kredisi",
-  "Emlak Konut Kredisi",
-  "Kamu Konut Kredisi",
-  "Özel Konum Kredisi",
-  "A kredisi",
-  "B kredisi",
-];
+let konutKredileri = ["Konut", "Emlak", "Kamu", "Özel"];
 
 console.log("<ul>");
+
 for (let i = 0; i < konutKredileri.length; i++) {
   console.log("<li>" + konutKredileri[i] + "</li>");
 }
